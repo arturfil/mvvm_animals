@@ -6,8 +6,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.Navigation
 
 import com.arturofilio.animals_mvvm.R
+import kotlinx.android.synthetic.main.fragment_detail.*
 
 class DetailFragment : Fragment() {
 
@@ -17,6 +19,5 @@ class DetailFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.fragment_detail, container, false)
     }
-
 
 }
